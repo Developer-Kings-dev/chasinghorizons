@@ -13,7 +13,7 @@ admin.initializeApp({
 });
 
 
-
+// Connect to database
 connectDB();
 
 app.use(express.json());
